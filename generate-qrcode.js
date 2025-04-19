@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // The Discord link to encode in the QR code
-const discordLink = 'https://discord.gg/kM9WBpSKhN';
+const discordLink = 'https://discord.gg/q8KxNAhmEm';
 
 // Output file path
 const outputPath = path.join(__dirname, 'discord-invite-qr.png');
