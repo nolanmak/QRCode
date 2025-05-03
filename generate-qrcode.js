@@ -5,7 +5,7 @@ const path = require('path');
 // The Discord link to encode in the QR code
 const discordLink = 'https://code-coffee-philly-tech-week.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Upcoming&_gl=1*15ums70*_gcl_au*MTEzNDQwMTk1NC4xNzQ2MjE0MTQw*_ga*OTI5NjU2ODc3LjE3NDYyMTQxNDA.*_ga_0YHJK3Y10M*MTc0NjIxNDEzOS4xLjEuMTc0NjIxNDE0NS4wLjAuMA';
 
-// Output file path
+// Output file paths
 const outputPath = path.join(__dirname, 'discord-invite-qr.png');
 
 // Options for QR code generation
