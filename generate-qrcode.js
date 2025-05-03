@@ -8,7 +8,7 @@ const discordLink = 'https://code-coffee-philly-tech-week.devpost.com/?ref_featu
 // Output file paths
 const outputPath = path.join(__dirname, 'discord-invite-qr.png');
 
-// Options for QR code generation
+// Options for QR code generations
 const options = {
   errorCorrectionLevel: 'H', // High error correction capability
   type: 'image/png',
